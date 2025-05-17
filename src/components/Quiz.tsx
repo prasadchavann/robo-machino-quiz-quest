@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { quizData } from '@/data/quizData';
 import { shuffleQuizItems, playSound } from '@/utils/quizUtils';
@@ -38,6 +39,15 @@ const Quiz: React.FC = () => {
     });
     setShowFeedback(false);
   };
+
+  const getExplanation = (item: any, answer: 'robot' | 'machine') => {
+    if (item.type === 'robot' && answer === 'machine') {
+      return `It's automated and can make decisions on its own.`;
+    } else if (item.type === 'machine' && answer === 'robot') {
+      return `It follows fixed operations and needs human control.`;
+    }
+    return '';
+  };
   
   const handleAnswer = (answer: 'robot' | 'machine') => {
     const currentQuestion = state.questions[state.currentQuestionIndex];
@@ -62,7 +72,7 @@ const Quiz: React.FC = () => {
       title: isCorrect ? "Correct!" : "Wrong!",
       description: isCorrect 
         ? `${currentQuestion.name} is indeed a ${currentQuestion.type}!` 
-        : `${currentQuestion.name} is actually a ${currentQuestion.type}!`,
+        : `${currentQuestion.name} is actually a ${currentQuestion.type}! ${getExplanation(currentQuestion, answer)}`,
       variant: isCorrect ? "default" : "destructive",
     });
     

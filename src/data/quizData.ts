@@ -11,7 +11,7 @@ export const quizData: QuizItem[] = [
   },
   {
     id: 2,
-    name: "Washing Machine",
+    name: "Washing Appliance",
     purpose: "Cleans clothes using spinning and water.",
     type: "machine",
     image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/washing_machine.jpg"
@@ -32,7 +32,7 @@ export const quizData: QuizItem[] = [
   },
   {
     id: 5,
-    name: "Lathe Machine",
+    name: "Lathe",
     purpose: "Shapes wood or metal by rotating it.",
     type: "machine",
     image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/lathe_machine.jpg"
@@ -53,7 +53,7 @@ export const quizData: QuizItem[] = [
   },
   {
     id: 8,
-    name: "Sewing Machine",
+    name: "Sewing Appliance",
     purpose: "Stitches fabric to make clothes.",
     type: "machine",
     image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/sewing_machine.jpg"
@@ -88,7 +88,7 @@ export const quizData: QuizItem[] = [
   },
   {
     id: 13,
-    name: "Robot Arm",
+    name: "Industrial Arm",
     purpose: "Used in factories for precise assembly work.",
     type: "robot",
     image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/robot-arm.jpg"
@@ -102,7 +102,7 @@ export const quizData: QuizItem[] = [
   },
   {
     id: 15,
-    name: "Surgical Robot",
+    name: "Surgical Assistant",
     purpose: "Helps doctors perform precise surgeries.",
     type: "robot",
     image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/surgical_robot.jpg"
@@ -123,21 +123,21 @@ export const quizData: QuizItem[] = [
   },
   {
     id: 18,
-    name: "Underwater ROV",
+    name: "Underwater Explorer",
     purpose: "Explores deep ocean areas autonomously.",
     type: "robot",
     image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/underwater_robot.jpg"
   },
   {
     id: 19,
-    name: "Mars Rover",
+    name: "Mars Explorer",
     purpose: "Explores the surface of Mars.",
     type: "robot",
     image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/mars_rover.jpg"
   },
   {
     id: 20,
-    name: "3D Printing Bot",
+    name: "3D Printer",
     purpose: "Automatically builds objects layer by layer.",
     type: "robot",
     image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/3d_printing.jpg"
