@@ -7,139 +7,139 @@ export const quizData: QuizItem[] = [
     name: "Bulldozer",
     purpose: "Used to move soil or rubble during construction.",
     type: "machine",
-    image: "/machines/bulldozer.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/bulldozer.jpg"
   },
   {
     id: 2,
     name: "Washing Machine",
     purpose: "Cleans clothes using spinning and water.",
     type: "machine",
-    image: "/machines/washing-machine.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/washing_machine.jpg"
   },
   {
     id: 3,
     name: "Printing Press",
     purpose: "Used to print books and newspapers.",
     type: "machine",
-    image: "/machines/printing-press.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/printing_press.jpg"
   },
   {
     id: 4,
     name: "Windmill",
     purpose: "Converts wind energy into mechanical power.",
     type: "machine",
-    image: "/machines/windmill.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/windmill.jpg"
   },
   {
     id: 5,
     name: "Lathe Machine",
     purpose: "Shapes wood or metal by rotating it.",
     type: "machine",
-    image: "/machines/lathe.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/lathe_machine.jpg"
   },
   {
     id: 6,
     name: "Steam Engine",
     purpose: "Used in old trains to convert steam into motion.",
     type: "machine",
-    image: "/machines/steam-engine.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/steam_engine.jpg"
   },
   {
     id: 7,
     name: "Crane",
     purpose: "Lifts heavy objects at construction sites.",
     type: "machine",
-    image: "/machines/crane.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/crane.jpg"
   },
   {
     id: 8,
     name: "Sewing Machine",
     purpose: "Stitches fabric to make clothes.",
     type: "machine",
-    image: "/machines/sewing-machine.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/sewing_machine.jpg"
   },
   {
     id: 9,
     name: "Microwave Oven",
     purpose: "Heats food using microwave radiation.",
     type: "machine",
-    image: "/machines/microwave.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/oven.jpg"
   },
   {
     id: 10,
     name: "Typewriter",
     purpose: "Types text on paper using mechanical keys.",
     type: "machine",
-    image: "/machines/typewriter.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/typewriter.jpg"
   },
   {
     id: 11,
     name: "Roomba",
-    purpose: "A robot that automatically cleans the floor.",
+    purpose: "Automatically cleans the floor without human control.",
     type: "robot",
-    image: "/robots/roomba.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/roomba.jpg"
   },
   {
     id: 12,
     name: "ASIMO",
-    purpose: "A humanoid robot that can walk and talk.",
+    purpose: "Humanoid that can walk and talk autonomously.",
     type: "robot",
-    image: "/robots/asimo.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/asimo.jpg"
   },
   {
     id: 13,
     name: "Robot Arm",
     purpose: "Used in factories for precise assembly work.",
     type: "robot",
-    image: "/robots/robot-arm.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/robot-arm.jpg"
   },
   {
     id: 14,
     name: "Drone",
     purpose: "Flies and captures photos or videos from above.",
     type: "robot",
-    image: "/robots/drone.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/drone.jpg"
   },
   {
     id: 15,
     name: "Surgical Robot",
     purpose: "Helps doctors perform precise surgeries.",
     type: "robot",
-    image: "/robots/surgical-robot.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/surgical_robot.jpg"
   },
   {
     id: 16,
     name: "Spot (Boston Dynamics)",
-    purpose: "Robot dog used in rescue missions.",
+    purpose: "Four-legged assistant used in rescue missions.",
     type: "robot",
-    image: "/robots/spot.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/spot_boston_dog.jpg"
   },
   {
     id: 17,
     name: "Pepper",
-    purpose: "Robot that interacts with people in stores.",
+    purpose: "Interacts with people in stores and provides assistance.",
     type: "robot",
-    image: "/robots/pepper.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/pepper.jpg"
   },
   {
     id: 18,
-    name: "Underwater Robot (ROV)",
-    purpose: "Explores deep ocean areas.",
+    name: "Underwater ROV",
+    purpose: "Explores deep ocean areas autonomously.",
     type: "robot",
-    image: "/robots/underwater-robot.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/underwater_robot.jpg"
   },
   {
     id: 19,
     name: "Mars Rover",
     purpose: "Explores the surface of Mars.",
     type: "robot",
-    image: "/robots/mars-rover.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/mars_rover.jpg"
   },
   {
     id: 20,
-    name: "3D Printing Robot",
+    name: "3D Printing Bot",
     purpose: "Automatically builds objects layer by layer.",
     type: "robot",
-    image: "/robots/3d-printing-robot.png"
+    image: "https://raw.githubusercontent.com/prasadchavann/roboVSmachine/refs/heads/main/3d_printing.jpg"
   }
 ];
